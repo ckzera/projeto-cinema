@@ -1,3 +1,2 @@
-console.log( 5 * 5 == 25? "sim" : "nãooo")
-console.log(typeof "DAVI ALCANTARA")
-console.log(false ? 1 : 2)
+console.log("ESSA É A PRIMEIRA BRANCH NO PROJETO")
+console.log("TESTANDO AS MENSAGENS E TESTANDO BRANCH")
