@@ -1,5 +1,96 @@
-.h1d {
-    color: rebeccapurple;
-} body {
-    background-color: rgb(77, 77, 77);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000020;
+}
+
+nav {
+    position: fixed;
+    /* Mantém a nav fixa no topo */
+    top: 0;
+    /* Fixa no topo da página */
+    left: 0;
+    /* Inicia do lado esquerdo da página */
+    right: 0;
+    /* Se estende até o lado direito da página */
+    z-index: 1000;
+    /* Garante que fique acima de outros elementos */
+    background-color: #14141d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    height: 70px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+    background-color: #09091400;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+main {
+    background-color: #000020;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 50px;
+
+}
+
+.nav-item {
+    display: flex;
+    padding: 0 10px;
+    height: 70px;
+    align-items: center;
+
+}
+
+.meu-container {
+    background-color: #000000;
+
+}
+
+.imagem-banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    background-position: top center;
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgba(255, 81, 0, 0.151);
+    /* Sombra na parte de baixo da imagem */
+    margin-bottom: 25px;
+    /* Adicionei uma margem em baixo para afastar do conteúdo abaixo */
+
+}
+
+.nav-transparent {
+    background-color: rgba(20, 20, 29, 0.9);
+    transition: background-color 0.3s ease;
 }
