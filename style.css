@@ -110,7 +110,7 @@ main {
     height: fit-content;
     border-radius: 5px;
     padding: 15px;
-    background-color: white;
+    background-color: rgb(3, 0, 0);
     box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
@@ -164,4 +164,7 @@ main {
 .cadeira:nth-child(3)::before {
     background-color: #00ccff;
     outline: none;
-}
+} .lupa {
+    width: 20px;
+    height: 20px;
+} 
