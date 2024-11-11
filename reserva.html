@@ -7,7 +7,6 @@
     <title>Checkout</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <link rel="shortcut icon" href="ELIGRAFF_PARA_VENDAS[1].svg" type="image/x-icon">
 </head>
 
 <body>
@@ -23,10 +22,52 @@
                         <div class="cadeira">Reservada</div>
                         <div class="cadeira">Reservar</div>
                     </div>
+                    <div class="total-assento">
+                        <input type="checkbox" name="ingresso" id="s1">
+                        <label for="s1" class="assento reservado"></label>
+                    </div>
+                    <div class="screentext">Tela</div>
+                    <div class="horarios">
+                        <div class="datas">
+                            <input type="radio" name="data" id="d1" checked>
+                            <label for="d1" class="datas-item">
+                                <div class="dia">Sex</div>
+                                <div class="data">29</div>
+                            </label><input type="radio" name="data" id="d2">
+                            <label for="d2" class="datas-item">
+                                <div class="dia">Sáb</div>
+                                <div class="data">30</div>
+                            </label><input type="radio" name="data" id="d3">
+                            <label for="d3" class="datas-item">
+                                <div class="dia">Dom</div>
+                                <div class="data">31</div>
+                            </label>
+                        </div>
+                        <div class="horas">
+                            <input type="radio" name="hora" id="h1" checked>
+                            <label for="h1" class="hora">18:00</label>
+                            <input type="radio" name="hora" id="h2">
+                            <label for="h2" class="hora">20:00</label>
+                            <input type="radio" name="hora" id="h3">
+                            <label for="h3" class="hora">22:00</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="preco">
+                    <div class="total">
+                        <span><span class="quantidade">0</span> Ingressos</span>
+                        <div>R$<div class="conta">0</div>
+                        </div>
+                    </div>
+                    <button type="button" class="reserve" onclick="reservouAssentos()">Reserve</button>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
