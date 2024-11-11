@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>testando js</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <link rel="shortcut icon" href="ELIGRAFF_PARA_VENDAS[1].svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="/assets/movie.png" type="image/x-icon">
+    <title>testando js</title>
 </head>
 
 <body>
@@ -22,11 +22,56 @@
         </nav>
     </header>
     <div class="meu-container">
-        <img src="fundoimg1.jpg" alt="" class="imagem-banner">
+        <img src="/projeto-cinema/assets/fundoimg1.jpg" alt="" class="imagem-banner">
     </div>
     <main>
-        
+
+        <div class="title">Filmes em Cartaz</div>
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="movies" id="exorcista" src="/projeto-cinema/assets/imgs/exorcist.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="movies" src="/projeto-cinema/assets/imgs/chainsaw-man.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <a href="/projeto-cinema/cards-html/cards1.html" target="_blank">
+                        <img class="movies" src="/projeto-cinema/assets/imgs/halloween.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <img class="movies" src="/projeto-cinema/assets/imgs/jogos mortais.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="movies" src="/projeto-cinema/assets/imgs/scream.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="movies" src="/projeto-cinema/assets/imgs/sexta-feira13.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="movies" src="/projeto-cinema/assets/imgs/sorria.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="movies" src="/projeto-cinema/assets/imgs/witcher.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="movies" src="/projeto-cinema/assets/imgs/conjuring.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
