@@ -61,4 +61,4 @@ let reservouAssentos = function() {
     } else {
         window.alert("Você reservou o assento!")
     }
-}
+} 
