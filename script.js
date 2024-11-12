@@ -15,7 +15,6 @@ const swiper = new Swiper('.swiper', {
       centeredSlides: true,
       spaceBetween: 50,
       pagination: {
-      
         type: "fraction",
       },
     
