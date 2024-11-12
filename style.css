@@ -47,7 +47,7 @@ a:hover {
 }
 
 main {
-    background-color: #000020;
+    background-color: #00000f;
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
@@ -413,8 +413,8 @@ p {
     height: 130px;
 } .classe-indicativa {
     display: flex;
-    width: 20px; /* ajuste conforme necessário */
-    height: 30px; /* ajuste conforme necessário */
+    width: 20px; 
+    height: 30px; 
 } .sobre-filme {
     padding: 5px;
 }
@@ -441,5 +441,10 @@ p {
     margin-left: 6px;
 } .sinopse, p {
     font-size: 14px;
+} .title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: #fff; /* ou a cor que você preferir */
 }
-
