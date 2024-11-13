@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="assets/movie.png" type="image/x-icon">
-    <title>testando js</title>
+    <title>Cinema</title>
 </head>
 
 <body>
@@ -15,18 +15,19 @@
         <nav>
             <a href="/" class="logo">CINEMA</a>
             <ul class="nav-list">
-                <li> <a href="/" class="nav-item">HOME</a></li>
-                <li> <a href="/" class="nav-item">FILMES</a></li>
-                <li> <a href="/" class="nav-item"><img src="assets/lupa.svg" alt="" class="lupa"></a></li>
+                <li><li><a href="javascript:void(0)" class="nav-item" onclick="scrollToTop()">HOME</a></li></li>
+                <li><a href="javascript:void(0)" class="nav-item" onclick="scrollDown()">FILMES</a></li>
             </ul>
         </nav>
     </header>
     <div class="meu-container">
         <img src="/assets/fundoimg1.jpg" alt="" class="imagem-banner">
     </div>
+    <div class="meu-container2" id="filme-scroll">
+        <div class="title-1">FILMES EM CARTAZ</div>
+    </div>
     <main>
-        <div class="title">Filmes em Cartaz</div>
-        <div class="swiper">
+        <div class="swiper" id="swiper-carrousel">
 
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -70,15 +71,15 @@
             <p>Desenvolvido por Davi Alcântara e Irlan Miranda &copy; 2024</p>
         </div>
         <div class="nav-f">
-            <p>Contato:</p>
+            <p class="p-contato">Contato:</p>
             <div class="d">
-                <a href="">daviialcantara1@gmail.com</a>
+                daviialcantara1@gmail.com
                 <a href="https://github.com/davialcantara2004">
                     <img class="git" src="/assets/github1.svg" alt="">
                 </a>
             </div>
             <div class="i">
-                <a href="#">irlanmiranda00@gmail.com</a>
+                irlanmiranda00@gmail.com
                 <a id="irlan" href="https://github.com/ckzera">
                     <img class="git" src="/assets/github1.svg" alt="">
                 </a>

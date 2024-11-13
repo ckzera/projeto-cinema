@@ -64,12 +64,9 @@ let reservouAssentos = function() {
 } 
 
 function selecionarFilme(titulo, imagem, sinopse) {
-    // Armazenar informações no localStorage
     localStorage.setItem('filmeTitulo', titulo);
     localStorage.setItem('filmeImagem', imagem);
     localStorage.setItem('filmeSinopse', sinopse);
-    
-
     window.open('reserva.html', '_blank');
 }
 
@@ -77,9 +74,13 @@ window.addEventListener('DOMContentLoaded', function() {
     const titulo = localStorage.getItem('filmeTitulo');
     const imagem = localStorage.getItem('filmeImagem');
     const sinopse = localStorage.getItem('filmeSinopse');
-
-    // Atualizar os elementos da página com as informações do filme
     document.querySelector('.nome-filme p').textContent = titulo;
     document.querySelector('.chainsaw-man-pag-1').src = imagem;
     document.querySelector('.sinopse p').textContent = sinopse;
 });
+
+function scrollDown() {
+    document.getElementById('filme-scroll').scrollIntoView({ behavior: "smooth" });
+} function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
